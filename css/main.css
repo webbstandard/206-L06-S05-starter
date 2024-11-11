@@ -10,11 +10,15 @@ article,
 footer {
   background: #F5C4C4;
   /* Add Flexbox properties to create parent flex containers and to center the content-wrapper */
+  display: flex;
+  justify-content: center;
 }
 
 .content-wrapper {
   width: 90%;
   max-width: 1200px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Header styles */
@@ -24,6 +28,8 @@ header {
 
 header .content-wrapper {
   /* Add Flexbox properties to make the "content-wrapper" a parent flex container and to center the h1 on a mobile site */
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -45,6 +51,9 @@ article .content-wrapper {
   padding: 70px 0;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .profile-image-container {
@@ -72,6 +81,8 @@ footer {
 
 footer .content-wrapper {
   /* Add Flexbox properties to make the "content-wrapper" a parent flex container and to center the copyright */
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
